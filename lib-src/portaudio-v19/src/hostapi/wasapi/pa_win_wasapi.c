@@ -56,6 +56,7 @@
 	#include <endpointvolume.h>
 	#define INITGUID // Avoid additional linkage of static libs, excessive code will be optimized out by the compiler
 	#include <mmdeviceapi.h>
+#include <functiondiscoverykeys_devpkey.h>
 	#include <functiondiscoverykeys.h>
     #include <devicetopology.h>	// Used to get IKsJackDescription interface
 	#undef INITGUID
